@@ -15,6 +15,12 @@ class Main extends CI_Controller
 
         $this->blade->view("layout.landing");
 	}
+
+    public function make()
+    {
+        $this->load->library('ci_migrations_generator/Sqltoci');
+        $this->sqltoci->generate();
+	}
 }
 /* End of file '/Main.php' */
 /* Location: ./application/controllers//Main.php */
