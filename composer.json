@@ -1,0 +1,16 @@
+{
+	"description" : "The CodeIgniter Application with Composer",
+	"require": {
+		"php": ">=7.4",
+		"codeigniter/framework": "3.1.*",
+		"roave/security-advisories": "dev-master",
+		"kenjis/codeigniter-ss-twig": "1.0.x@dev",
+		"jenssegers/blade": "^1.4"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*",
+		"kenjis/codeigniter-cli": "^0.1.0",
+		"kenjis/ci-phpunit-test": "^0.18.0",
+		"kenjis/codeigniter-deployer": "1.0.x@dev"
+	}
+}
